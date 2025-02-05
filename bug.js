@@ -1,0 +1,2 @@
+This bug occurs when using the Expo CLI to build an Android APK.  The build process fails with the error "Execution failed for task ':app:processDebugManifest'. > Manifest merger failed with multiple errors, see logs."
+The error logs often point to issues with merging different versions of AndroidX libraries or conflicts between dependencies. This is particularly problematic when integrating third-party libraries or using older codebases.
